@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Exit on error
+set -e
+set -u
+set -o pipefail
+
+#-------------------------------------------
+# Run the test harness. Invoke as "ci/test".
+#-------------------------------------------
+
+# shellcheck source=/dev/null
+. ci/functions.sh
+
+# shellcheck source=/dev/null
+
+run scripts/check-archive.sh
+run scripts/create-docker-assets.sh
+
+run scripts/build-docker-image.sh
+
