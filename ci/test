@@ -18,3 +18,6 @@ run scripts/create-docker-assets.sh
 
 run scripts/build-docker-image.sh
 
+info "Clean up"
+run rm -rf src/docker-data
+

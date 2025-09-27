@@ -12,5 +12,5 @@ set -o pipefail
 
 run mkdir -p src/docker-data
 run cp -p scripts/installer.sh src/docker-data/
-#<ok>#run unzip "$ST_ARCHIVE" -d src/docker-data/
+run unzip "$ST_ARCHIVE" -d src/docker-data/
 run chmod +x src/docker-data/*
