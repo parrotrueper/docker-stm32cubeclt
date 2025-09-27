@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 - Clean up after build, remove installer script from image
 
+### 📚 Documentation
+
+- Changelog
+
 ## [stm32cubeclt_1.19.0] - 2025-09-26
 
 ### 🚀 Features
