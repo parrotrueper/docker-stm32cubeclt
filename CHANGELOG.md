@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [parrotrueper-stm32cubeclt-1.19.0-20250927] - 2025-09-27
 
 ### 🐛 Bug Fixes
 
@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 ### 📚 Documentation
 
 - Changelog
+- Tagged
 
 ## [stm32cubeclt_1.19.0] - 2025-09-26
 

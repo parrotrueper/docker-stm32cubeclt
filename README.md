@@ -44,6 +44,6 @@ where image name is:
 
 ```shell
 docker login -u <username>
-docker image tag <image name> <docker hub namespace>/<image name>
+docker image tag <local image name:tag> <docker hub namespace>/<image name:tag>
 docker image push -a <docker hub namespace>/<image name>
 ```
