@@ -22,6 +22,7 @@ fi
 bld_cmd="docker build"
 bld_cmd+=" --no-cache"
 bld_cmd+=" --file ${DKR_FILE}"
+bld_cmd+=" --build-arg BASE_IMAGE=${DKR_BASE_IMAGE}"
 bld_cmd+=" --build-arg ST_INSALLER=${file_sh}"
 bld_cmd+=" -t ${DKR_IMG_NAME}"
 #bld_cmd+=" --progress=plain"
