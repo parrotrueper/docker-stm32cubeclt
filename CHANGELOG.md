@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [debianslim] - 2025-09-29
+
+### 🚀 Features
+
+- Allow a different base image to be specified
+- Debian slim trixie as base image
+
+### ⚙️ Miscellaneous Tasks
+
+- New image pushed to DH
+
 ## [parrotrueper-stm32cubeclt-1.19.0-20250927] - 2025-09-27
 
 ### 🐛 Bug Fixes
