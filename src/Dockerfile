@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=ubuntu:noble-20250910
+ARG BASE_IMAGE="debian:trixie-slim"
 FROM ${BASE_IMAGE}
 
 # downloaded filename without the ".zip"
