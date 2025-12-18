@@ -1,8 +1,7 @@
-ARG BASE_IMAGE="debian:trixie-slim"
-FROM ${BASE_IMAGE}
+FROM debian:trixie-slim
 
 # downloaded filename without the ".zip"
-ARG ST_INSALLER="st-stm32cubeclt_1.19.0_25876_20250729_1159_amd64.deb_bundle.sh"
+ARG ST_INSALLER="st-stm32cubeclt_1.20.0_26822_20251117_1245_amd64.deb_bundle.sh"
 
 COPY docker-data/ /
 

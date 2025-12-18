@@ -11,7 +11,7 @@ set -o pipefail
 # shellcheck source=/dev/null
 . ci/functions.sh
 
-# shellcheck source=/dev/null
+rm -rf ./src/docker-data
 
 run scripts/check-archive.sh
 run scripts/create-docker-assets.sh
@@ -20,4 +20,3 @@ run scripts/build-docker-image.sh
 
 info "Clean up"
 run rm -rf src/docker-data
-
