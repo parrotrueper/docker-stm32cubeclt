@@ -8,9 +8,10 @@ trap 'printf "\n\nERROR at line $LINENO. Exiting.\n\n"' ERR
 
 repo_root="$(git rev-parse --show-toplevel)"
 
-cd "$repo_root"
+cd "${repo_root}"
 
 docker pull orhunp/git-cliff
+#shellcheck disable=SC2312
 docker run -t --volume "$(pwd)":/app/ orhunp/git-cliff:latest > CHANGELOG.md
 
 # Remove consecutive duplicate lines from CHANGELOG.md

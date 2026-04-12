@@ -10,10 +10,12 @@ frameworks.
 
 CubeClt Version | Docker image
 -- | --
+`st-stm32cubeclt_1.21.0_27995_20260219_1804_amd64.deb_bundle.sh.zip` | `parrotrueper/stm32cubeclt:1.21.0`
+23f8243083bfaa8a78c56c664ca62d25 | -
+`st-stm32cubeclt_1.20.0_26822_20251117_1245_amd64.deb_bundle.sh.zip` | `parrotrueper/stm32cubeclt:1.20.0`
+a350924454794970c55ad8383f88eab0 | -
 `st-stm32cubeclt_1.19.0_25876_20250729_1159_amd64.deb_bundle.sh.zip` | `parrotrueper/stm32cubeclt:1.19.0`
 `0b57d9f99958d3783f0121cd5a63823b` | -
-st-stm32cubeclt_1.20.0_26822_20251117_1245_amd64.deb_bundle.sh.zip | `parrotrueper/stm32cubeclt:1.20.0`
-a350924454794970c55ad8383f88eab0 | -
 
 ## Using the Docker Hub image
 
